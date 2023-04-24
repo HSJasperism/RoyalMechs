@@ -1,25 +1,46 @@
 {
     "Name": "RoyalMechs",
-    "Author": "Gabi Davar",
+    "Author": "Gabi Davar, HSJasperism",
     "Enabled": true,
-    
-    "Version": "0.7",
+    "Version": "2.0.0",
     "BattleTechVersionMin": "1.9.1",
-
-    "DependsOn": [],
     "ConflictsWith": [],
-
     "Manifest": [
-        { "Type": "ChassisDef", "Path": "chassis", "AddToDB": true },
-        { "Type": "MechDef", "Path": "mech", "AddToDB": true },
-        { "Type": "UpgradeDef", "Path": "upgrades", "ShouldMergeJSON": false },
-        { "Type": "MovementCapabilitiesDef", "Path": "movement" },
-        { "Type": "HardpointDataDef", "Path": "hardpoints" },
-        { "Type": "ItemCollectionDef", "Path": "ItemCollectionDefsAppend", "ShouldAppendText": true },
-        { "Type": "ItemCollectionDef", "Path": "ItemCollectionDefs" },
+        {
+            "Type": "ChassisDef",
+            "Path": "chassis",
+            "AddToDB": true
+        },
+        {
+            "Type": "MechDef",
+            "Path": "mech",
+            "AddToDB": true
+        },
+        {
+            "Type": "UpgradeDef",
+            "Path": "upgrades",
+            "ShouldMergeJSON": false
+        },
+        {
+            "Type": "MovementCapabilitiesDef",
+            "Path": "movement"
+        },
+        {
+            "Type": "HardpointDataDef",
+            "Path": "hardpoints"
+        },
+        {
+            "Type": "ItemCollectionDef",
+            "Path": "ItemCollectionDefsAppend",
+            "ShouldAppendText": true
+        },
+        {
+            "Type": "ItemCollectionDef",
+            "Path": "ItemCollectionDefs"
+        },
         {
             "Type": "AdvancedJSONMerge",
             "Path": "StarSystemDefs"
-        }        
+        }
     ]
 }

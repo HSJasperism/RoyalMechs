@@ -1,0 +1,169 @@
+{
+    "Description" : {
+        "Cost" : 0,
+        "Rarity" : 99,
+        "Purchasable" : false,
+        "Manufacturer" : "RCA",
+        "Model" : "",
+        "UIName" : "Longbolt Missile Pods",
+        "Id" : "Gear_General_FCS_Thunderbolt",
+        "Name" : "Longbolt Missile Pods",
+        "Details" : "Longbolt Missiles require special hardware to carry and launch, but are vastly superior to regular missiles. SRM and LRM missiles carry improved targeting systems that seek joints and other openings in armor, dealing +2 structure damage.",
+        "Icon" : "UixSvgIcon_specialEquip_System"
+    },
+    "BonusValueA" : "* Longbolt Missiles",
+    "BonusValueB" : "",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "InventorySize" : 2,
+    "Tonnage" : 1.5,
+    "AllowedLocations" : "RightTorso",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "CanExplode" : true,
+    "statusEffects" : [
+        {
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-FCS-ClusterBonusLRM",
+                "Name" : "LONGBOLT MISSILES",
+                "Details" : "Substantially increases the clustering of this unit's LRM weapons.",
+                "Icon" : "UixSvgIcon_specialEquip_System"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "ClusteringModifier",
+                "operation" : "Float_Add",
+                "modValue" : "16",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Missile",
+                "targetWeaponType" : "LRM",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "nature" : "Buff"
+        },
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-Attack_ToHitLRM-T2",
+                "Name" : "MISSILE WEAPON HIT CHANCE IMPROVED",
+                "Details" : "Missile weapon attacks have their hit improved by [AMT].",
+                "Icon" : "UixSvgIcon_specialEquip_System"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "-2.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Missile",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+        {
+            "Description" : {
+                "Id" : "StatusEffect-Longbolt-StructureDamage",
+                "Name" : "LONGBOLT MISSILES",
+                "Details" : "Missile attacks deal [AMT] bonus structure damage to the target.",
+                "Icon" : "UixSvgIcon_specialEquip_System"
+            },
+            "effectType" : "StatisticEffect",
+            "nature" : "Buff",
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : true
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "StructureDamagePerShot",
+                "operation" : "Float_Add",
+                "modValue" : "2.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Missile",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }
+    ],
+    "ComponentTags" : {
+        "items" : [
+			"BUILT-IN"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

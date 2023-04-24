@@ -8,7 +8,7 @@
         "UIName": "Catapult",
         "Id": "chassisdef_catapult_CPLT-C1b",
         "Name": "Catapult",
-        "Details": "An SLDF Royal unit upgrade kit of the standard C1 Catapults to the C1b variant. The weapon array stays the same, but the ammunition has been doubled. For improved protection and Ferro-Fibrous armor is used. Finally, twelve double strength heat sinks replace the old singles.",
+        "Details": "The Catapult C1b is a direct upgrade over the C1 variant, using much lighter materials and more efficient heat sinks. The extra mass available allows this variant to sport more ammunition and armor, greatly improving field time.",
         "Icon": "uixTxrIcon_catapult"
     },
     "MovementCapDefID": "movedef_catapult_CPLT-C1",
@@ -207,5 +207,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Heavy Fire Support",
-    "YangsThoughts": "An SLDF Royal unit upgrade kit of the standard C1 Catapults to the C1b variant. The weapon array stays the same, but the ammunition has been doubled. For improved protection and Ferro-Fibrous armor is used. Finally, twelve double strength heat sinks replace the old singles."
+    "YangsThoughts": "The Catapult C1b is a direct upgrade over the C1 variant, using much lighter materials and more efficient heat sinks. The extra mass available allows this variant to sport more ammunition and armor, greatly improving field time."
 }

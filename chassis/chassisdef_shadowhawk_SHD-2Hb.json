@@ -8,7 +8,7 @@
         "UIName": "Shadow Hawk",
         "Id": "chassisdef_shadowhawk_SHD-2Hb",
         "Name": "Shadow Hawk",
-        "Details": "The SLDF Royal upgrade of the Shadow Hawk shifts the role of the 'Mech towards a close-range brawler. Introduced in 2752 its weapon systems are replaced with an LB 10-X AC, two SRM2s and two Medium Pulse Lasers, cooled by double-strength heatsinks.",
+        "Details": "The SHD-2Hb is built quite differently from the traditional Shadow Hawk, shifting the role of the 'Mech to a close-range brawler. The LRM-5 is replaced by an SRM-2, and the AC-5 is replaced by an LB-10X. The upgrades are facilitated by drastically upgraded internals, including higher efficiency cooling.",
         "Icon": "uixTxrIcon_shadowhawk"
     },
     "MovementCapDefID": "movedef_shadowhawk_SHD-2H",
@@ -17,10 +17,12 @@
     "PrefabIdentifier": "chrPrfMech_shadowhawkBase-001",
     "PrefabBase": "shadowhawk",
     "Tonnage": 55,
-    "InitialTonnage": 24.5,
+    "InitialTonnage": 23.5,
     "weightClass": "MEDIUM",
     "BattleValue": 5171000,
-    "Heatsinks": 36,
+    "Heatsinks": 30,
+    "TopSpeed": 80,
+    "TurnRadius": 90,
     "MaxJumpjets": 5,
     "Stability": 130,
     "StabilityDefenses": [
@@ -216,6 +218,20 @@
         "items": [],
         "tagSetSourceFile": ""
     },
+    "FixedEquipment": [
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_General_FCS_ShadowHawk",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        }
+    ],
     "StockRole": "Skirmisher & Cavalry",
-    "YangsThoughts": "The SLDF Royal upgrade of the Shadow Hawk shifts the role of the 'Mech towards a close-range brawler. Introduced in 2752 its weapon systems are replaced with an LB 10-X AC, two SRM2s and two Medium Pulse Lasers, cooled by double-strength heatsinks."
+    "YangsThoughts": "The SHD-2Hb is built quite differently from the traditional Shadow Hawk, shifting the role of the 'Mech to a close-range brawler. The LRM-5 is replaced by an SRM-2, and the AC-5 is replaced by an LB-10X. The upgrades are facilitated by drastically upgraded internals, including higher efficiency cooling."
 }
