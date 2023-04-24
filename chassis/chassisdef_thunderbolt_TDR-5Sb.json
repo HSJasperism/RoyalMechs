@@ -1,14 +1,14 @@
 {
     "Description": {
-        "Cost": 6200000,
-        "Rarity": 3,
+        "Cost": 9300000,
+        "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
         "UIName": "Thunderbolt",
         "Id": "chassisdef_thunderbolt_TDR-5Sb",
         "Name": "Thunderbolt",
-        "Details": "The Thunderbolt 5S is well-armed and heavily armored for its size. It's often deployed as a frontline 'Mech where the fighting is heavy, and it needs to give as good as it gets.",
+        "Details": "This SLDF Royal variant of the Thunderbolt was introduced in 2753 and uses Star League technology. The large laser is replaced by an ER PPC, and a pair of Small Pulse Lasers replaces the machine guns. Double heat sinks keep the MechWarrior comfortable.",
         "Icon": "uixTxrIcon_thunderbolt"
     },
     "MovementCapDefID": "movedef_thunderbolt_TDR-5S",
@@ -17,10 +17,12 @@
     "PrefabIdentifier": "chrPrfMech_thunderboltBase-001",
     "PrefabBase": "thunderbolt",
     "Tonnage": 65,
-    "InitialTonnage": 22.5,
+    "InitialTonnage": 23,
     "weightClass": "HEAVY",
     "BattleValue": 6057000,
     "Heatsinks": 30,
+    "TopSpeed": 120,
+    "TurnRadius": 90,
     "MaxJumpjets": 4,
     "Stability": 160,
     "StabilityDefenses": [
@@ -47,12 +49,7 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }            
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -216,6 +213,20 @@
         "items": [],
         "tagSetSourceFile": ""
     },
+    "FixedEquipment": [
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_General_FCS_Thunderbolt",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        }
+    ],
     "StockRole": "Heavy Skirmisher & Brawler",
-    "YangsThoughts": "The Thunderbolt 5S is well-armed and heavily armored for its size. It's often deployed as a frontline 'Mech where the fighting is heavy, and it needs to give as good as it gets."
+    "YangsThoughts": "SLDF Royal indeed, visually almost identical to the stock 5S, It runs cooler and has a longer reach. Capable of alpha striking repeatedly it can engage both short and long range opponents effectivity."
 }

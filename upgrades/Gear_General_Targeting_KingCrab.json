@@ -1,0 +1,168 @@
+{
+    "Description": {
+        "Cost": 0,
+        "Rarity": 99,
+        "Purchasable": true,
+        "Manufacturer": "Dalban",
+        "Model": "",
+        "UIName": "Targeting Suite",
+        "Id": "Gear_General_Targeting_KingCrab",
+        "Name": "Targeting Suite",
+        "Details": "The King Crab's integrated targeting suites predates modern tracking systems. Mounted weapons have reduced penalties from recoil and long-range shots, and ignore 2 EVASIVE charges on targets.",
+        "Icon": "UixSvgIcon_specialEquip_System"
+    },
+    "BonusValueA": "* Ignores 2 Evasion",
+    "BonusValueB": "- 2 Recoil / Range Penalty",
+    "ComponentType": "Upgrade",
+    "ComponentSubType": "NotSet",
+    "PrefabIdentifier": "",
+    "InventorySize": 1,
+    "Tonnage": 1,
+    "AllowedLocations": "CenterTorso",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+        {
+            "durationData": {
+                "duration": -1,
+                "stackLimit": 1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "showInTargetPreview": true,
+                "showInStatusPanel": true
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-IntSys-IgnoreEvasion2",
+                "Name": "TARGETING SUITE",
+                "Details": "This unit ignores [AMT] charges of EVASIVE when attacking targets.",
+                "Icon": "UixSvgIcon_specialEquip_System"
+            },
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "EvasivePipsIgnored",
+                "operation": "Float_Add",
+                "modValue": "2",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "Weapon",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "nature": "Buff"
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": -1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-TargetingSuite-LongRangePenaltyReduce",
+                "Name": "LONG RANGE PENALTIES REDUCED",
+                "Details": "Removes long range hit penalties.",
+                "Icon": "UixSvgIcon_specialEquip_System"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "LongRangeModifier",
+                "operation": "Float_Subtract",
+                "modValue": "2.0",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "Weapon",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": -1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-TargetingSuite-RecoilPenaltyReduce",
+                "Name": "RECOIL PENALTIES REDUCED",
+                "Details": "Removes recoil refire hit penalties.",
+                "Icon": "UixSvgIcon_specialEquip_System"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "RefireModifier",
+                "operation": "Int_Add",
+                "modValue": "-2",
+                "modType": "System.Int32",
+                "additionalRules": "NotSet",
+                "targetCollection": "Weapon",
+                "targetWeaponCategory": "Ballistic",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
+        }
+    ],
+    "ComponentTags": {
+        "items": [
+            "BUILT-IN"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

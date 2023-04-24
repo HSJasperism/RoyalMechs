@@ -1,0 +1,117 @@
+{
+    "Description" : {
+        "Cost" : 0,
+        "Rarity" : 99,
+        "Purchasable" : false,
+        "Manufacturer" : "RCA",
+        "Model" : "",
+        "UIName" : "Fire Control System",
+        "Id" : "Gear_General_FCS_Trebuchet",
+        "Name" : "Artemis IV FCS",
+        "Details" : "The Artemis IV Fire Control System greatly increases clustering for LRM attacks, which causes greater damage to single locations. It also provides a boost to LRM targetting systems.",
+        "Icon" : "UixSvgIcon_specialEquip_System"
+    },
+    "BonusValueA" : "+ LRM Clustering",
+    "BonusValueB" : "+ 2 Acc. (LRM)",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "InventorySize" : 2,
+    "Tonnage" : 2,
+    "AllowedLocations" : "RightTorso",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        {
+            "durationData" : {
+                "duration" : -1,
+                "stackLimit" : 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "effectTargetType" : "Creator",
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-FCS-ClusterBonusLRM",
+                "Name" : "FCS",
+                "Details" : "Substantially increases the clustering of this unit's LRM weapons.",
+                "Icon" : "UixSvgIcon_specialEquip_System"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "ClusteringModifier",
+                "operation" : "Float_Add",
+                "modValue" : "16",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Missile",
+                "targetWeaponType" : "LRM",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "nature" : "Buff"
+        },
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-Attack_ToHitLRM-T2",
+                "Name" : "LRM WEAPON HIT CHANCE IMPROVED",
+                "Details" : "LRM weapon attacks have their hit improved by [AMT].",
+                "Icon" : "uixSvgIcon_equipment_TTS"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "-2.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Missile",
+                "targetWeaponType" : "LRM",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }
+    ],
+    "ComponentTags" : {
+        "items" : [
+			"BUILT-IN"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

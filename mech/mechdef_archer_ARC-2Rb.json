@@ -10,7 +10,7 @@
         "UIName": "Archer ARC-2Rb",
         "Id": "mechdef_archer_ARC-2Rb",
         "Name": "Archer",
-        "Details": "The \"Royal\" SDLF Archer very much resembles the most common variant seen today—carrying an endo steel frame, Artemis IV FCS-equipped missile launchers and double heatsinks.",
+        "Details": "The Archer ARC-2Rb very much resembles the most common variant seen today, but is much better equipped to handle heat.",
         "Icon": "uixTxrIcon_archer"
     },
     "simGameMechPartCost": 840000,
@@ -222,9 +222,7 @@
             "unit_range_long",
             "unit_speed_low",
             "unit_armor_high",
-            "unit_indirectFire",
-            "unit_common",
-            "BLACKLISTED"
+            "unit_indirectFire"
         ],
         "tagSetSourceFile": ""
     }

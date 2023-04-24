@@ -1,27 +1,27 @@
 {
     "Description": {
-        "Cost": 5200000,
-        "Rarity": 3,
+        "Cost": 15000000,
+        "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Kintaro",
-        "Id": "chassisdef_kintaro_KTO-20",
-        "Name": "Kintaro",
-		"Details": "The KTO-20, used to good effect in the War of 3039, was the slightly downgraded version of the KTO-19 given to the Draconis Combine by ComStar as part of Operation Rosebud. The KTO-20 was nearly identical to its Star League era cousin, the only real difference being the loss of the Narc Missile beacon in exchange for a Large Laser. It was equipped with double heat sinks.",
-        "Icon": "uixTxrIcon_kintaro"
+        "UIName": "Wolverine II",
+        "Id": "chassisdef_wolverine_WVR-7H",
+        "Name": "Wolverine II",
+        "Details": "The Wolverine II is a straight upgrade to the Wolverine, featuring better weapons, higher armor. Double Heat Sinks provide vastly improved cooling.",
+        "Icon": "uixTxrIcon_wolverine"
     },
-    "MovementCapDefID": "movedef_kintaro_KTO-18",
+    "MovementCapDefID": "movedef_wolverine_WVR-6R",
     "PathingCapDefID": "pathingdef_medium",
-    "HardpointDataDefID": "hardpointdatadef_kintaro",
-    "PrefabIdentifier": "chrPrfMech_kintaroBase-001",
-    "PrefabBase": "kintaro",
+    "HardpointDataDefID": "hardpointdatadef_wolverine",
+    "PrefabIdentifier": "chrPrfMech_wolverineBase-001",
+    "PrefabBase": "wolverine",
     "Tonnage": 55,
-    "InitialTonnage": 26,
+    "InitialTonnage": 23.25,
     "weightClass": "MEDIUM",
-    "BattleValue": 5148000,
+    "BattleValue": 6968000,
     "Heatsinks": 30,
-    "TopSpeed": 80,
+    "TopSpeed": 150,
     "TurnRadius": 90,
     "MaxJumpjets": 5,
     "Stability": 130,
@@ -49,7 +49,16 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -58,16 +67,7 @@
         },
         {
             "Location": "LeftArm",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 8,
             "MaxArmor": 90,
@@ -76,30 +76,11 @@
         },
         {
             "Location": "LeftTorso",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 10,
-            "MaxArmor": 130,
-            "MaxRearArmor": 65,
-            "InternalStructure": 65
-        },
-        {
-            "Location": "CenterTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Missile",
                     "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 4,
-            "MaxArmor": 180,
-            "MaxRearArmor": 90,
-            "InternalStructure": 90
-        },
-        {
-            "Location": "RightTorso",
-            "Hardpoints": [
+                },
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
@@ -109,6 +90,24 @@
                     "Omni": false
                 }
             ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 130,
+            "MaxRearArmor": 65,
+            "InternalStructure": 65
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 180,
+            "MaxRearArmor": 90,
+            "InternalStructure": 90
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 130,
@@ -119,11 +118,11 @@
             "Location": "RightArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 }
             ],
@@ -155,52 +154,52 @@
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 15,
+            "y": 14,
             "z": 0
         },
         {
-            "x": 3,
-            "y": 15,
+            "x": 3.5,
+            "y": 13,
             "z": 0
         },
         {
-            "x": -3,
-            "y": 15,
+            "x": -3.5,
+            "y": 13,
             "z": 0
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 15,
+            "y": 14,
             "z": 0
         },
         {
-            "x": 3,
-            "y": 15,
+            "x": 3.5,
+            "y": 13,
             "z": 0
         },
         {
-            "x": -3,
-            "y": 15,
+            "x": -3.5,
+            "y": 13,
             "z": 0
         },
         {
-            "x": 3,
+            "x": 2.5,
             "y": 5,
             "z": 0
         },
         {
-            "x": -3,
+            "x": -2.5,
             "y": 5,
             "z": 0
         }
     ],
-    "VariantName": "KTO-20",
+    "VariantName": "WVR-7H",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Juggernaut & Close Assault",
-	"YangsThoughts": "The KTO-20, used to good effect in the War of 3039, was the slightly downgraded version of the KTO-19 given to the Draconis Combine by ComStar as part of Operation Rosebud. The KTO-20 was nearly identical to its Star League era cousin, the only real difference being the loss of the Narc Missile beacon in exchange for a Large Laser. It was equipped with double heat sinks."
+    "StockRole": "Skirmisher & Cavalry",
+    "YangsThoughts": "The Wolverine II is a straight upgrade to the Wolverine, featuring better weapons, higher armor. Double Heat Sinks provide vastly improved cooling."
 }
