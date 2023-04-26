@@ -72,8 +72,8 @@
             "CurrentArmor": 150,
             "CurrentRearArmor": 40,
             "CurrentInternalStructure": 75,
-            "AssignedArmor": 160,
-            "AssignedRearArmor": 30
+            "AssignedArmor": 150,
+            "AssignedRearArmor": 40
         },
         {
             "DamageLevel": "Functional",
