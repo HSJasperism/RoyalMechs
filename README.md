@@ -1,7 +1,7 @@
 # RoyalMechs Battetech Mod Fork
 
-Additional Royal variants patterned after the variants introduced in 1.9.1.\
-Should work with both ModTek and stock mod loader.
+    Additional Royal variants patterned after the variants introduced in 1.9.1.\
+    Should work with both ModTek and stock mod loader.
 
 | Change         | Description                               |                        Effect |
 |:---------------|:------------------------------------------|------------------------------:|
@@ -24,7 +24,6 @@ Should work with both ModTek and stock mod loader.
 | Weapons | S Laser on H, S Pulse each on LA & RA              |  uses 2.5 T |
 | Ammo    | 4 tons AC-10 ammo to 6 tons LB 10-X ammo           |  uses 2.0 T |
 | Armor   | distribute 6.5 tons (520 points armor)             |  uses 6.5 T |
-| FINAL   | +600 points armor net change                       |   no change |
 
 ### Banshee BNC-5S (from BNC-3S)
 
@@ -35,7 +34,6 @@ Should work with both ModTek and stock mod loader.
 | Weapons | PPCs to ER PPCs                                             |            no change |
 | Weapons | AC-10 to Gauss Rifle                                        |           uses 3.0 T |
 | Ammo    | 2 T Ac-10 to 1 T Gauss                                      |          frees 1.0 T |
-| FINAL   |                                                             | +5.0 initial tonnage |
 
 ### King Crab KGC-000b (from KGC-0000)
 
@@ -47,7 +45,6 @@ Should work with both ModTek and stock mod loader.
 | CASE          | On LT & RT, +40 points armor each                  |           uses 1.0 T |
 | Custom FCS    | On LT                                              |           uses 1.0 T |
 | Other Changes | On LT & RT, +1 ton AC-20 ammo each                 |           uses 2.0 T |
-| FINAL         | +160 points armor net change                       | -2.0 initial tonnage |
 
 ### Stalker STK-3Fb (from STK-3F)
 
@@ -62,38 +59,42 @@ Should work with both ModTek and stock mod loader.
 | Weapons      | 2 L Laser to 2 ER L Laser                               |   no change |
 | Ammo         | Remove all SRM ammo, add 1 ton LRM ammo, move all to LT | frees 1.0 T |
 | Armor        | distribute 2 tons (160 points armor)                    |  uses 2.0 T |
-| FINAL        | +200 points armor net change                            |   no change |
 
 ## Heavy
 
-### ARC-2Rb Archer
+### Archer ARC-2Rb (from ARC-2R)
 
 | Change     | Description          |            Mass cost |
 |:-----------|:---------------------|---------------------:|
 | DHS        | +30 internal         |            no change |
 | Endo Steel | half skeleton mass   | -3.5 initial tonnage |
-| Armor      | +40 armor            |           uses 0.5 T |
+| Armor      | +20 armor on LL & RL |           uses 0.5 T |
 | Weapons    | -1 Medium Laser      |          frees 1.0 T |
 | Ammo       | +1 LRM Ammo          |           uses 1.0 T |
 | CASE       | +40 armor on LT & RT |           uses 1.0 T |
 | Artemis IV | replaced by TTS++    |           uses 2.0 T |
 
-### CPLT-C1b Catapult
+### Catapult CPLT-C1b (from CPLT-C1)
 
-* SLDF Royal
-* Double heatsinks
-* FF armor (-1 initial tonnage, +1 armor)
-* CASE (+1 armor on L/R torso)
-* InitialTonnage 25 = 6.5{IS] + 13.5[E] + 3[C] + 3[G] -1[FF]
+| Change | Description                                        |             Mass cost |
+|:-------|:---------------------------------------------------|----------------------:|
+| DHS    | Remove all HS, +30 internal, 1 DHS on LT & RT each |          frees 3.00 T |
+| Armor  | +100 armor                                         |           uses 1.25 T |
+| FF     | 10 T armor worth 11.25 T armor                     | -1.25 initial tonnage |
+| CASE   | +40 armor on LT & RT                               |           uses 1.00 T |
+| Ammo   | +2 LRM ammo                                        |           uses 2.00 T |
 
-### TDR-5Sb Thunderbolt
+### Thunderbolt TDR-5Sb (from TDR-5S)
 
-* SLDF Royal
-* endo steel
-* Double heatsinks
-* Artemis IV FCS (LRM Clustering)
-* CASE (+0.5 armor on L/R torso)
-* Small laser moved from Head to Left torso - lack of graphical assets.
+| Change     | Description                         |            Mass cost |
+|:-----------|:------------------------------------|---------------------:|
+| DHS        | Remove all HS, +30 internal, 4 DHS  |          frees 1.0 T |
+| Endo Steel |                                     | -3.0 initial tonnage |
+| Weapons    | Large Laser to ER PPC               |           uses 2.0 T |
+| Weapons    | 2 MGs to 2 Small Pulse Lasers       |           uses 1.0 T |
+| Ammo       | Remove MG ammo                      |          frees 1.0 T |
+| Custom FCS | Replacement for Streak & Artemis IV |           uses 1.5 T |
+| CASE       | +40 armor on LT                     |           uses 0.5 T |
 
 ## Medium
 
