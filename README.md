@@ -100,12 +100,23 @@
 
 ### KTO-19b
 
-* DHS
-* XL Engine         -   -7.5
-* FF                -   -0.5, but +60
+| Change | Description                 |            Mass cost |
+|:-------|:----------------------------|---------------------:|
+| DHS    | Remove all HS, +30 internal |            no change |
+| Engine | 275 to 275 XL               | -7.5 initial tonnage |
+| Armor
+| FF
+
 * CASE IS
 * Weapons           -   SRM-6 to NARC
 * Weapons           -   LRM-5 to LRM-15
+
+### SHD-2Hb Shadow Hawk
+
+* DHS               -   Remove all HS, replace with DHS on CT                       -   frees 1 ton
+* CASE IS (+0.5 armor on L/R torso)
+* FF (-1 initial tonnage)
+* ES (-2.5 initial tonnage)
 
 ### TBT-3C
 
@@ -116,10 +127,3 @@
 * -0.5 armor (dropped by original design)
 * CASE (-1 initial tonnage, +1 armor)
 * Artemis IV FCS (LRM Clustering)
-
-### SHD-2Hb Shadow Hawk
-
-* DHS               -   Remove all HS, replace with DHS on CT                       -   frees 1 ton
-* CASE IS (+0.5 armor on L/R torso)
-* FF (-1 initial tonnage)
-* ES (-2.5 initial tonnage)
