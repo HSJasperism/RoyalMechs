@@ -1,6 +1,6 @@
 # RoyalMechs Battetech Mod Fork
 
-    Additional Royal variants patterned after the variants introduced in 1.9.1.\
+    Additional Royal variants patterned after the variants introduced in 1.9.1.
     Should work with both ModTek and stock mod loader.
 
 | Change         | Description                               |                        Effect |
