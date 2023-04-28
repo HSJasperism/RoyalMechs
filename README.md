@@ -98,18 +98,20 @@
 
 ## Medium
 
-### KTO-19b
+### Kintaro KTO-19b (from KTO-18)
 
-| Change | Description                 |            Mass cost |
-|:-------|:----------------------------|---------------------:|
-| DHS    | Remove all HS, +30 internal |            no change |
-| Engine | 275 to 275 XL               | -7.5 initial tonnage |
-| Armor
-| FF
-
-* CASE IS
-* Weapons           -   SRM-6 to NARC
-* Weapons           -   LRM-5 to LRM-15
+| Change  | Description                        |               Mass cost |
+|:--------|:-----------------------------------|------------------------:|
+| DHS     | Remove all HS, +30 internal        |               no change |
+| Engine  | 275 to 275 XL                      | -7.5000 initial tonnage |
+| Armor   | -40 armor                          |             frees 0.5 T |
+| FF      | 10.5 T armor worth 11.8125 T armor | -1.1325 initial tonnage |
+| CASE    | +40 armor on LT & RT               |              uses 1.0 T |
+| Weapons | 1 SRM6 to 1 NARC                   |               no change |
+| Weapons | LRM5 to LRM15                      |              uses 5.0 T |
+| Ammo    | -1 SRM ammo                        |             frees 1.0 T |
+| Ammo    | +2 NARC ammo                       |              uses 2.0 T |
+| Ammo    | +1 LRM ammo                        |              uses 1.0 T |
 
 ### SHD-2Hb Shadow Hawk
 
