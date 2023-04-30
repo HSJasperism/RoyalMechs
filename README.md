@@ -6,7 +6,7 @@
 | Change         | Description                               |                        Effect |
 |:---------------|:------------------------------------------|------------------------------:|
 | DHS            | ×2 Engine Heat Sink effect, all HS to DHS |      -1 T for each HS removed |
-| FF             | For each ton of armor (excluding CASE IS) | from 80 armor/T to 90 armor/T |
+| FF             | For each ton of armor (excluding CASE)    | from 80 armor/T to 90 armor/T |
 | CASE           | +40 armor per torso affected              |                         0.5 T |
 | Artemis IV FCS | LRM Clustering                            |                         1.0 T |
 | Endo Steel     | half skeleton mass                        |            -5% of max tonnage |
@@ -16,14 +16,14 @@
 
 ### Annihilator ANH-1X (from ANH-1A)
 
-| Change  | Description                                        |   Mass cost |
-|:--------|:---------------------------------------------------|------------:|
-| DHS     | Remove all HS, +30 internal                        | frees 8.0 T |
-| CASE    | On LT & RT, +40 points armor each                  |  uses 1.0 T |
-| Weapons | 4 AC-10 (12 tons each) to 4 LB 10-X (11 tons each) | frees 4.0 T |
-| Weapons | S Laser on H, S Pulse each on LA & RA              |  uses 2.5 T |
-| Ammo    | 4 tons AC-10 ammo to 6 tons LB 10-X ammo           |  uses 2.0 T |
-| Armor   | distribute 6.5 tons (520 points armor)             |  uses 6.5 T |
+| Change  | Description                                     |   Mass cost |
+|:--------|:------------------------------------------------|------------:|
+| DHS     | Remove all HS, +30 internal                     | frees 8.0 T |
+| CASE    | On LT & RT, +40 points armor each               |  uses 1.0 T |
+| Weapons | 4 AC10 (12 tons each) to 4 LB10X (11 tons each) | frees 4.0 T |
+| Weapons | S Laser on H, S Pulse each on LA & RA           |  uses 2.5 T |
+| Ammo    | 4 tons AC10 ammo to 6 tons LB10X ammo           |  uses 2.0 T |
+| Armor   | distribute 6.5 tons (520 points armor)          |  uses 6.5 T |
 
 ### Banshee BNC-5S (from BNC-3S)
 
@@ -32,7 +32,7 @@
 | Engine  | 285 to 380 XL fusion engine                                 | +5.0 initial tonnage |
 | DHS     | Remove all HS, +30 internal, 1 DHS on LL, RL, CT, & LT each |          frees 7.0 T |
 | Weapons | PPCs to ER PPCs                                             |            no change |
-| Weapons | AC-10 to Gauss Rifle                                        |           uses 3.0 T |
+| Weapons | AC10 to Gauss Rifle                                         |           uses 3.0 T |
 | Ammo    | 2 T Ac-10 to 1 T Gauss                                      |          frees 1.0 T |
 
 ### King Crab KGC-000b (from KGC-0000)
@@ -44,7 +44,7 @@
 | FF            | 16 tons armor worth 18 tons hit points             | -2.0 initial tonnage |
 | CASE          | On LT & RT, +40 points armor each                  |           uses 1.0 T |
 | Custom FCS    | On LT                                              |           uses 1.0 T |
-| Other Changes | On LT & RT, +1 ton AC-20 ammo each                 |           uses 2.0 T |
+| Other Changes | On LT & RT, +1 ton AC20 ammo each                  |           uses 2.0 T |
 
 ### Stalker STK-3Fb (from STK-3F)
 
@@ -64,15 +64,15 @@
 
 ### Archer ARC-2Rb (from ARC-2R)
 
-| Change     | Description          |            Mass cost |
-|:-----------|:---------------------|---------------------:|
-| DHS        | +30 internal         |            no change |
-| Endo Steel | half skeleton mass   | -3.5 initial tonnage |
-| Armor      | +20 armor on LL & RL |           uses 0.5 T |
-| Weapons    | -1 Medium Laser      |          frees 1.0 T |
-| Ammo       | +1 LRM Ammo          |           uses 1.0 T |
-| CASE       | +40 armor on LT & RT |           uses 1.0 T |
-| Artemis IV | replaced by TTS++    |           uses 2.0 T |
+| Change     | Description                 |            Mass cost |
+|:-----------|:----------------------------|---------------------:|
+| DHS        | Remove all HS, +30 internal |            no change |
+| Endo Steel | half skeleton mass (7.0 T)  | -3.5 initial tonnage |
+| Armor      | +20 armor on LL & RL        |           uses 0.5 T |
+| Weapons    | -1 Medium Laser             |          frees 1.0 T |
+| Ammo       | +1 LRM Ammo                 |           uses 1.0 T |
+| CASE       | +40 armor on LT & RT        |           uses 1.0 T |
+| Artemis IV | replaced by TTS++           |           uses 2.0 T |
 
 ### Catapult CPLT-C1b (from CPLT-C1)
 
@@ -83,6 +83,8 @@
 | FF     | 10 T armor worth 11.25 T armor                     | -1.25 initial tonnage |
 | CASE   | +40 armor on LT & RT                               |           uses 1.00 T |
 | Ammo   | +2 LRM ammo                                        |           uses 2.00 T |
+
+### Quickdraw QKD-5K (from QKD-5A)
 
 ### Thunderbolt TDR-5Sb (from TDR-5S)
 
@@ -113,14 +115,22 @@
 | Ammo    | +2 NARC ammo                       |              uses 2.0 T |
 | Ammo    | +1 LRM ammo                        |              uses 1.0 T |
 
-### SHD-2Hb Shadow Hawk
+### Shadow Hawk SHD-2Hb (from SHD-2H)
 
-* DHS               -   Remove all HS, replace with DHS on CT                       -   frees 1 ton
-* CASE IS (+0.5 armor on L/R torso)
-* FF (-1 initial tonnage)
-* ES (-2.5 initial tonnage)
+| Change     | Description                              |            Mass cost |
+|:-----------|:-----------------------------------------|---------------------:|
+| DHS        | Remove all HS, +30 internal, 1 DHS on CT |          frees 1.0 T |
+| Endo Steel | half mass on 5.5 frame                   | -2.5 initial tonnage |
+| FF         | 8.5 T armor worth 9.5 T                  | -1.0 initial tonnage |
+| CASE       | +40 armor on RT                          |           uses 0.5 T |
+| Weapons    | +1 SRM2                                  |           uses 1.0 T |
+| Weapons    | Remove LRM5 & ammo                       |          frees 3.0 T |
+| Weapons    | AC5 to LB10X                             |           uses 3.0 T |
+| Ammo       | 1 AC5 ammo to 2 LB10X ammo               |           uses 1.0 T |
+| Weapons    | +1 Medium Laser                          |           uses 1.0 T |
+| Custom FCS | replacement for Streak                   |           uses 1.0 T |
 
-### TBT-3C
+### Trebuchet TBT-3C
 
 * SLDF Royal
 * XL engine (6,9)
@@ -129,3 +139,9 @@
 * -0.5 armor (dropped by original design)
 * CASE (-1 initial tonnage, +1 armor)
 * Artemis IV FCS (LRM Clustering)
+
+### Wolverine
+
+| Change | Description                 | Mass cost |
+|:-------|:----------------------------|----------:|
+| DHS    | Remove all HS, +30 internal |           |
