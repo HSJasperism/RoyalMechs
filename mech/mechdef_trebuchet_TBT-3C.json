@@ -41,20 +41,20 @@
         {
             "DamageLevel": "Functional",
             "Location": "LeftArm",
-            "CurrentArmor": 50,
+            "CurrentArmor": 65,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 40,
-            "AssignedArmor": 50,
+            "AssignedArmor": 65,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftTorso",
-            "CurrentArmor": 70,
-            "CurrentRearArmor": 25,
+            "CurrentArmor": 65,
+            "CurrentRearArmor": 30,
             "CurrentInternalStructure": 60,
-            "AssignedArmor": 70,
-            "AssignedRearArmor": 25
+            "AssignedArmor": 65,
+            "AssignedRearArmor": 30
         },
         {
             "DamageLevel": "Functional",
@@ -68,37 +68,37 @@
         {
             "DamageLevel": "Functional",
             "Location": "RightTorso",
-            "CurrentArmor": 70,
-            "CurrentRearArmor": 25,
+            "CurrentArmor": 105,
+            "CurrentRearArmor": 30,
             "CurrentInternalStructure": 60,
-            "AssignedArmor": 70,
-            "AssignedRearArmor": 25
+            "AssignedArmor": 105,
+            "AssignedRearArmor": 30
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightArm",
-            "CurrentArmor": 50,
+            "CurrentArmor": 65,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 40,
-            "AssignedArmor": 50,
+            "AssignedArmor": 65,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftLeg",
-            "CurrentArmor": 75,
+            "CurrentArmor": 80,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 60,
-            "AssignedArmor": 75,
+            "AssignedArmor": 80,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightLeg",
-            "CurrentArmor": 75,
+            "CurrentArmor": 80,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 60,
-            "AssignedArmor": 75,
+            "AssignedArmor": 80,
             "AssignedRearArmor": -1
         }
     ],
@@ -137,22 +137,11 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_LRM_LRM15_0-STOCK",
             "SimGameUID": null,
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
-            "SimGameUID": null,
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
@@ -160,10 +149,10 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_LRM_LRM15_0-STOCK",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
             "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
