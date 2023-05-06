@@ -86,6 +86,8 @@
 
 ### Quickdraw QKD-5K (from QKD-5A)
 
+    (coming soon)
+
 ### Thunderbolt TDR-5Sb (from TDR-5S)
 
 | Change     | Description                         |            Mass cost |
@@ -120,7 +122,7 @@
 | Change     | Description                              |            Mass cost |
 |:-----------|:-----------------------------------------|---------------------:|
 | DHS        | Remove all HS, +30 internal, 1 DHS on CT |          frees 1.0 T |
-| Endo Steel | half mass on 5.5 frame                   | -2.5 initial tonnage |
+| Endo Steel | half mass on 5.5 T frame                 | -2.5 initial tonnage |
 | FF         | 8.5 T armor worth 9.5 T                  | -1.0 initial tonnage |
 | CASE       | +40 armor on RT                          |           uses 0.5 T |
 | Weapons    | +1 SRM2                                  |           uses 1.0 T |
@@ -130,18 +132,29 @@
 | Weapons    | +1 Medium Laser                          |           uses 1.0 T |
 | Custom FCS | replacement for Streak                   |           uses 1.0 T |
 
-### Trebuchet TBT-3C
+### Trebuchet TBT-3C (from TBT-5N)
 
-* SLDF Royal
-* XL engine (6,9)
-* Double heatsinks
-* endo steel
-* -0.5 armor (dropped by original design)
-* CASE (-1 initial tonnage, +1 armor)
-* Artemis IV FCS (LRM Clustering)
+| Change     | Description                 |            Mass cost |
+|:-----------|:----------------------------|---------------------:|
+| DHS        | Remove all HS, +30 internal |            no change |
+| Endo Steel | Half mass on 5.0 T frame    | -2.5 initial tonnage |
+| XL Engine  | 250 to 300 XL engine        | -3.0 initial tonnage |
+| Armor      | +80 armor                   |           uses 1.0 T |
+| Weapons    | +1 Medium Laser             |           uses 1.0 T |
+| Ammo       | +1 LRM ammo                 |           uses 1.0 T |
+| Custom FCS | Replacement for Artemis IV  |           uses 2.0 T |
+| CASE       | on RT                       |           uses 0.5 T |
 
-### Wolverine
+### Wolverine WVR-7H (from WVR-6R)
 
-| Change | Description                 | Mass cost |
-|:-------|:----------------------------|----------:|
-| DHS    | Remove all HS, +30 internal |           |
+| Change     | Description                  |              Mass cost |
+|:-----------|:-----------------------------|-----------------------:|
+| DHS        | Remove all HS, +30 internal  |          frees 2.000 T |
+| Endo Steel | half 5.5 T frame             |   -2.5 initial tonnage |
+| Armor      | +50 armor                    |           uses 0.625 T |
+| FF         |                              | -1.125 initial tonnage |
+| CASE       | on LT & RT                   |           uses 1.000 T |
+| Weapons    | AC5 to UAC5                  |           uses 1.000 t |
+| Ammo       | +1 AC5 ammo                  |           uses 1.000 T |
+| Weapons    | Medium Laser to Medium Pulse |           uses 1.000 T |
+| TTS        | Replacement for Artemis IV   |           uses 1.000 T |
