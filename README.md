@@ -40,8 +40,8 @@
 | Change        | Description                                        |            Mass cost |
 |:--------------|:---------------------------------------------------|---------------------:|
 | DHS           | Remove all HS, +30 internal, 1 DHS on LL & RL each |          frees 3.0 T |
-| Armor         | Subtract 1 ton armor (17 tons to 16 tons)          |          frees 1.0 T |
-| FF            | 16 tons armor worth 18 tons hit points             | -2.0 initial tonnage |
+| Armor         | +80 armor                                          |           uses 1.0 T |
+| FF            |                                                    | -2.0 initial tonnage |
 | CASE          | On LT & RT, +40 points armor each                  |           uses 1.0 T |
 | Custom FCS    | On LT                                              |           uses 1.0 T |
 | Other Changes | On LT & RT, +1 ton AC20 ammo each                  |           uses 2.0 T |
@@ -104,18 +104,18 @@
 
 ### Kintaro KTO-19b (from KTO-18)
 
-| Change  | Description                        |               Mass cost |
-|:--------|:-----------------------------------|------------------------:|
-| DHS     | Remove all HS, +30 internal        |               no change |
-| Engine  | 275 to 275 XL                      | -7.5000 initial tonnage |
-| Armor   | -40 armor                          |             frees 0.5 T |
-| FF      | 10.5 T armor worth 11.8125 T armor | -1.1325 initial tonnage |
-| CASE    | +40 armor on LT & RT               |              uses 1.0 T |
-| Weapons | 1 SRM6 to 1 NARC                   |               no change |
-| Weapons | LRM5 to LRM15                      |              uses 5.0 T |
-| Ammo    | -1 SRM ammo                        |             frees 1.0 T |
-| Ammo    | +2 NARC ammo                       |              uses 2.0 T |
-| Ammo    | +1 LRM ammo                        |              uses 1.0 T |
+| Change  | Description                 |               Mass cost |
+|:--------|:----------------------------|------------------------:|
+| DHS     | Remove all HS, +30 internal |               no change |
+| Engine  | 275 to 275 XL               | -7.5000 initial tonnage |
+| Armor   | +65 armor                   |           uses 0.8125 T |
+| FF      |                             | -1.3125 initial tonnage |
+| CASE    | +40 armor on LT & RT        |              uses 1.0 T |
+| Weapons | 1 SRM6 to 1 NARC            |               no change |
+| Weapons | LRM5 to LRM15               |              uses 5.0 T |
+| Ammo    | -1 SRM ammo                 |             frees 1.0 T |
+| Ammo    | +2 NARC ammo                |              uses 2.0 T |
+| Ammo    | +1 LRM ammo                 |              uses 1.0 T |
 
 ### Shadow Hawk SHD-2Hb (from SHD-2H)
 
